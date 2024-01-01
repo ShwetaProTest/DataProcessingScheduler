@@ -1,0 +1,40 @@
+SELECT aircraft_registration, COUNT(*) AS count
+FROM Schedule
+GROUP BY aircraft_registration
+HAVING COUNT(*) > 1;
+
+
+-- Check for duplicates in Reg column
+SELECT Reg, COUNT(*) AS count
+FROM Fleet
+GROUP BY Reg
+HAVING count > 1;
+
+
+-- Check for duplicates in AirportCode column
+SELECT Airport, COUNT(*) AS count
+FROM Airports
+GROUP BY Airport
+HAVING count > 1;
+
+--Data Consistency Check:
+SELECT COUNT(*) FROM Schedule;
+SELECT COUNT(*) FROM Fleet;
+SELECT COUNT(*) FROM Airports;
+
+
+--Check for NULL Values in Critical Columns:
+SELECT COUNT(*) FROM Schedule WHERE aircraft_registration IS NULL OR departure_airport IS NULL;
+SELECT COUNT(*) FROM Fleet WHERE IATATypeDesignator IS NULL;
+SELECT COUNT(*) FROM Airports WHERE Airport IS NULL;
+
+
+--Verify Data Integrity - Foreign Key Relationships:
+SELECT COUNT(*) FROM Schedule
+WHERE departure_airport NOT IN (SELECT Airport FROM Airports);
+
+
+--Check for Unique Values:
+SELECT COUNT(DISTINCT aircraft_registration) FROM Schedule;
+SELECT COUNT(DISTINCT IATATypeDesignator) FROM Fleet;
+SELECT COUNT(DISTINCT Airport) FROM Airports;

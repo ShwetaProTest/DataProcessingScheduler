@@ -1,0 +1,100 @@
+2023-11-17 15:24:24,946 - INFO - Downloading blob: schedule.json
+2023-11-17 15:24:24,992 - INFO - Request URL: 'https://zerogrecruiting.blob.core.windows.net/python-case-study/schedule.json'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.0 Python/3.10.11 (Windows-10-10.0.22631-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '02274bda-8555-11ee-93ac-e4aaeac9f3d6'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2023-11-17 15:24:25,206 - INFO - Response status: 206
+Response headers:
+    'Content-Length': '282870'
+    'Content-Type': 'application/json'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Thu, 15 Apr 2021 09:35:08 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8D8FFF1C24F81E1"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '444dd512-901e-0027-7b61-1919fe000000'
+    'x-ms-client-request-id': '02274bda-8555-11ee-93ac-e4aaeac9f3d6'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 17 Nov 2023 14:24:23 GMT'
+2023-11-17 15:24:25,322 - INFO - Blob schedule.json downloaded successfully to C:\Users\Shweta\PycharmProjects\zeroG\data_files\schedule.json.
+2023-11-17 15:24:26,076 - INFO - Data quality checks passed successfully.
+2023-11-17 15:24:26,077 - INFO - Downloading blob: airports.csv
+2023-11-17 15:24:26,080 - INFO - Request URL: 'https://zerogrecruiting.blob.core.windows.net/python-case-study/airports.csv'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.0 Python/3.10.11 (Windows-10-10.0.22631-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '02cd71de-8555-11ee-b611-e4aaeac9f3d6'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2023-11-17 15:24:26,233 - INFO - Response status: 206
+Response headers:
+    'Content-Length': '23012'
+    'Content-Type': 'application/vnd.ms-excel'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Thu, 15 Apr 2021 09:35:08 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8D8FFF1C2080B83"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '4a444928-201e-000d-7761-19c6ee000000'
+    'x-ms-client-request-id': '02cd71de-8555-11ee-b611-e4aaeac9f3d6'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 17 Nov 2023 14:24:24 GMT'
+2023-11-17 15:24:26,259 - INFO - Blob airports.csv downloaded successfully to C:\Users\Shweta\PycharmProjects\zeroG\data_files\airports.csv.
+2023-11-17 15:24:26,607 - INFO - Data quality checks passed successfully.
+2023-11-17 15:24:26,607 - INFO - Downloading blob: fleet.csv
+2023-11-17 15:24:26,608 - INFO - Request URL: 'https://zerogrecruiting.blob.core.windows.net/python-case-study/fleet.csv'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.19.0 Python/3.10.11 (Windows-10-10.0.22631-SP0)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '031e17fd-8555-11ee-921b-e4aaeac9f3d6'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+2023-11-17 15:24:26,770 - INFO - Response status: 206
+Response headers:
+    'Content-Length': '13513'
+    'Content-Type': 'application/vnd.ms-excel'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Thu, 15 Apr 2021 09:35:08 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8D8FFF1C20BDCC8"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '5fc8c2a2-501e-005a-0961-1968dd000000'
+    'x-ms-client-request-id': '031e17fd-8555-11ee-921b-e4aaeac9f3d6'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'Date': 'Fri, 17 Nov 2023 14:24:25 GMT'
+2023-11-17 15:24:26,773 - INFO - Blob fleet.csv downloaded successfully to C:\Users\Shweta\PycharmProjects\zeroG\data_files\fleet.csv.
+2023-11-17 15:24:27,120 - INFO - Data quality checks passed successfully.
+2023-11-17 15:24:28,856 - INFO - The Blob files downloaded successfully, and data quality checks passed.

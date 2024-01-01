@@ -1,0 +1,10 @@
+{
+  "data_directory": "data_files",
+  "log_directory": "log",
+  "result_directory": "Result",
+  "config_directory": "config",
+  "azure_storage": {
+    "connection_string": "DefaultEndpointsProtocol=https;AccountName=zerogrecruiting;AccountKey=q9HNK+vY0InVSBmwM45KcOL7BZJJyBMWDwTNdwKPuqS83Iq8RP4lWETgCUKQkOOsJg4WjAsgdb21Dl8JpU6vkQ==;EndpointSuffix=core.windows.net",
+    "container_name": "python-case-study"
+  }
+}

@@ -1,0 +1,106 @@
+<mxfile host="Electron" modified="2023-11-16T10:30:19.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="IG9hfe4qgzerOjG90Ptx" version="22.0.3" type="device">
+  <diagram name="Page-1" id="YZCyEPnaN5AjEPofCWqy">
+    <mxGraphModel dx="2049" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="291" background="none" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-32" value="High Level Flow- Data Scheduler" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="10.5" y="10" width="289.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-33" value="Shweta Shivamogga Dattatri,16-11-2023" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="840" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-35" value="" style="group;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="82" y="160" width="1738" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-1" value="User Interface(command Line interface)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="19.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-2" value="Console output" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="1598.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-3" value="Directories(Log and Result)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-4" value="External Dependencies" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="1249" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-5" value="Configuration Module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="1069" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-6" value="Flight Lookup App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-7" value="Flight Data Processor Module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="369" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-8" value="Lookup Operation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="549" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-9" value="Merge Operation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="719" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-10" value="Logging Module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="896" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-13" value="- Main Module&lt;br&gt;- Parses CLI Arguments&lt;br&gt;- Invokes Data Processor&lt;br&gt;- Handles Exceptions" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="170.5" y="150" width="159" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-14" value="- Import Libraries&lt;br&gt;- Get Data&lt;br&gt;- Calculate Distances&lt;br&gt;- Perform Operation&lt;br&gt;- Logging&lt;br&gt;- Configuration" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="349.5" y="150" width="159" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-15" value="- Lookup Flight&lt;br&gt;- Modifies Fleet data&lt;br&gt;- Merges data&lt;br&gt;- Returns Formatted Results" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="529.5" y="150" width="159" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-16" value="- Merge Data&lt;br&gt;- Modifies Fleet data&lt;br&gt;- Merges Data&lt;br&gt;- Outputs to CSV&lt;br&gt;- Logging" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="699.5" y="150" width="159" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-17" value="- Configures Logging Settings&lt;br&gt;- Logs key Events, Errors, and Exceptions" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="876.5" y="150" width="159" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-18" value="- Third party Libraries" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="1229.5" y="150" width="159" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-19" value="- Log Directory&lt;br&gt;- Result Directory" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="1400.5" y="150" width="159" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-20" value="- Displays Results, Errors, and Completion Messages" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="1579" y="150" width="159" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-21" value="- Command line arguments&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;- Lookup&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;- Merge&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;- Other parameters" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;labelBackgroundColor=none;labelBorderColor=none;fontStyle=0;fontSize=12;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry y="150" width="159" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-22" value="- Loads Configuration Settings" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="jmaH9HdOsBBq5J55rm2B-35">
+          <mxGeometry x="1049.5" y="150" width="159" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jmaH9HdOsBBq5J55rm2B-35" source="jmaH9HdOsBBq5J55rm2B-3" target="jmaH9HdOsBBq5J55rm2B-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jmaH9HdOsBBq5J55rm2B-35" source="jmaH9HdOsBBq5J55rm2B-4" target="jmaH9HdOsBBq5J55rm2B-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jmaH9HdOsBBq5J55rm2B-35" source="jmaH9HdOsBBq5J55rm2B-5" target="jmaH9HdOsBBq5J55rm2B-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jmaH9HdOsBBq5J55rm2B-35" source="jmaH9HdOsBBq5J55rm2B-1" target="jmaH9HdOsBBq5J55rm2B-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jmaH9HdOsBBq5J55rm2B-35" source="jmaH9HdOsBBq5J55rm2B-6" target="jmaH9HdOsBBq5J55rm2B-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jmaH9HdOsBBq5J55rm2B-35" source="jmaH9HdOsBBq5J55rm2B-7" target="jmaH9HdOsBBq5J55rm2B-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jmaH9HdOsBBq5J55rm2B-35" source="jmaH9HdOsBBq5J55rm2B-8" target="jmaH9HdOsBBq5J55rm2B-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jmaH9HdOsBBq5J55rm2B-35" source="jmaH9HdOsBBq5J55rm2B-9" target="jmaH9HdOsBBq5J55rm2B-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmaH9HdOsBBq5J55rm2B-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jmaH9HdOsBBq5J55rm2B-35" source="jmaH9HdOsBBq5J55rm2B-10" target="jmaH9HdOsBBq5J55rm2B-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
